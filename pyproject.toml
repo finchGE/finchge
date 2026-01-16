@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finchge"
+version = "0.1.0a1"
+description = "FinchGE is a grammatical evolution library."
+authors = [
+    {name = "Sudarshan Pant", email = "sudarshan.pant@gmail.com"},
+]
+license = {text = "MIT License"}
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 1 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "tqdm",
+    "diskcache", 
+    "plotly",
+    "requests",
+    "tabulate",
+    "matplotlib",
+    "pandas",
+    "python-socketio",
+    "scikit-learn",
+    "flask-socketio",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "pytest-cov",
+    "pytest-xdist",
+]
+dev = [
+    "pytest>=7.0.0", 
+    "pytest-cov",
+    "black",
+    "flake8",
+    "pre-commit",
+]
+pytorch = [
+    "torch>=1.9.0",
+]
+docs = [
+    "mkdocs>=1.4.0",
+    "mkdocs-material>=8.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/finchge/finchge"
+Documentation = "https://finchge.readthedocs.io"
+Repository = "https://github.com/finchge/finchge"
+"Bug Reports" = "https://github.com/finchge/finchge/issues"

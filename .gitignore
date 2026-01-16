@@ -1,0 +1,26 @@
+# compiled Python files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+# logs
+**/logs/
+.pytest_cache/
+*.log
+
+# virtual environments
+venv/
+.venv/
+
+# Python egg and build files
+*.egg-info/
+*.egg/
+dist/
+build/
+/docs/
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
