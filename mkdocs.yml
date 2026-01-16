@@ -1,0 +1,32 @@
+site_name: finchGE
+repo_url: https://github.com/finchGE/finchge
+repo_name: finchge/finchge
+extra:
+  version:
+    provider: mike
+theme:
+  name: material
+  logo: assets/images/finchge_white.png
+  favicon: assets/images/finchge_white.ico
+  palette:
+    primary: blue
+    accent: indigo
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Getting Started: getting_started.md
+  - Examples: examples.md
+  - API Reference: api.md
+  - License: license_info.md
+  - Contributing: contributing.md
+  - Changelog: changelog.md
+plugins:
+  - search
+  - mkdocstrings:
+      handler:
+        python:
+          options:
+            docstring_style: google  # or numpy
+            show_source: false
+            show_signature: true
+            merge_init_into_class: true 
