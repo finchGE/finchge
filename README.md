@@ -32,10 +32,10 @@ pip install finchge[all]        # All optional dependencies
 
 Comprehensive documentation is available at [finchge.readthedocs.io](https://finchge.readthedocs.io/) including:
 
-- [Tutorials](https://finchge.readthedocs.io/en/latest/tutorials.html) - Step-by-step guides
-- [Examples](https://finchge.readthedocs.io/en/latest/examples.html) - Real-world use cases
-- [API Reference](https://finchge.readthedocs.io/en/latest/api.html) - Complete API documentation
-
+- [Tutorials](https://finchge.readthedocs.io/en/latest/tutorials) - Step-by-step guides
+- [Examples](https://finchge.readthedocs.io/en/latest/examples) - Real-world use cases
+- [API Reference](https://finchge.readthedocs.io/en/latest/api/) - Complete API documentation
+ 
 ## Architecture
 
 FinchGE is built with modularity in mind:
@@ -75,6 +75,17 @@ FinchGE includes the following third-party software:
 
 All packages retain their original licenses.
 
+
+## Alpha Release Notice
+Note: This is version ```0.1.0a1``` - an alpha release. Expect breaking changes and bugs. Not production ready.
+
+What to expect:
+- Bugs and unexpected behavior
+- Rapid API changes
+- Frequent updates
+- Limited test coverage (improving daily)
+
+ 
 ## Acknowledgments
 
 - Inspired by PonyGE2
