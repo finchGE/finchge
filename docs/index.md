@@ -1,6 +1,15 @@
 
  
-# Welcome to finchGE's documentation!
+# FinchGE: A Modular Grammatical Evolution Library
+ 
+[![PyPI](https://img.shields.io/pypi/v/finchge?color=blue&label=PyPI)](https://pypi.org/project/finchge/)
+[![Python](https://img.shields.io/pypi/pyversions/finchge?color=blue)](https://pypi.org/project/finchge/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Docs](https://img.shields.io/readthedocs/finchge?color=blue)](https://finchge.readthedocs.io/)
+[![Status](https://img.shields.io/badge/status-alpha-orange)](https://github.com/finchGE/finchge)
+[![Tests](https://github.com/finchGE/finchge/actions/workflows/tests.yml/badge.svg)](https://github.com/finchGE/finchge/actions)
+
+ 
 
 <img src="assets/images/finchgebanner.png" alt="finchGE" width="717" height="194"> 
 

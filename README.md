@@ -41,11 +41,7 @@ Comprehensive documentation is available at [finchge.readthedocs.io](https://fin
 - [Tutorials](https://finchge.readthedocs.io/en/latest/tutorials) - Step-by-step guides
 - [Examples](https://finchge.readthedocs.io/en/latest/examples) - Real-world use cases
 - [API Reference](https://finchge.readthedocs.io/en/latest/api/) - Complete API documentation
- 
-## Architecture
-
-FinchGE is built with modularity in mind:
- 
+  
 
 ## Contributing
 
@@ -91,7 +87,12 @@ What to expect:
 - Frequent updates
 - Limited test coverage (improving daily)
 
- 
+
+## References
+
+- Michael O'Neill and Conor Ryan, "Grammatical Evolution: Evolutionary Automatic Programming in an Arbitrary Language", Kluwer Academic Publishers, 2003.
+- Fenton, M., McDermott, J., Fagan, D., Forstenlechner, S., Hemberg, E., and O'Neill, M. PonyGE2: Grammatical Evolution in Python. arXiv preprint, arXiv:1703.08535, 2017.
+
 ## Acknowledgments
 
 - Inspired by PonyGE2
