@@ -29,4 +29,6 @@ plugins:
             docstring_style: google  # or numpy
             show_source: false
             show_signature: true
-            merge_init_into_class: true 
+            merge_init_into_class: true
+  - version:
+    enabled: true
