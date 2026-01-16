@@ -1,0 +1,36 @@
+name: Tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11"]
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: Install package
+      run: |
+        python -m pip install --upgrade pip
+        pip install -e .
+    
+    - name: Run basic tests
+      run: |
+        python -c "
+        import finchge
+        print(f'✅ Import test passed: {finchge.__version__}')
+        
+        # Basic functionality test
+        from finchge import Grammar, EvolutionaryAlgorithm
+        g = Grammar({'<start>': ['test']})
+        algo = EvolutionaryAlgorithm(g, population_size=5)
+        print('✅ Basic functionality test passed')
+        "

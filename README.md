@@ -2,8 +2,8 @@
 [![PyPI version](https://img.shields.io/pypi/v/finchge.svg)](https://pypi.org/project/finchge/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/finchge.svg)](https://pypi.org/project/finchge/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation](https://img.shields.io/badge/docs-readthedocs-blue)](https://finchge.readthedocs.io/)
-[![Tests](https://github.com/finchGE/finchge/actions/workflows/tests.yml/badge.svg)](https://github.com/finchGE/finchge/actions)
+[![Documentation Status](https://readthedocs.org/projects/finchge/badge/?version=latest)](https://finchge.readthedocs.io/en/latest/?badge=latest)
+[![Downloads](https://static.pepy.tech/badge/finchge/month)](https://pepy.tech/projects/finchge)
 
 FinchGE is a modern, modular, and user-friendly Python library for Grammatical Evolution (GE) - a powerful evolutionary algorithm that uses formal grammars to evolve programs, expressions, and solutions.
 
