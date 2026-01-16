@@ -29,10 +29,10 @@ class GrammaticalEvolution:
     M. O'Neill and C. Ryan, "Grammatical evolution", IEEE Trans. Evol. Comput., vol. 5, no. 4, pp. 349-358, Aug. 2001.
 
     Args:
-        fitness_evaluator: Evaluator to evaluate the fitness of individuals.
+        fitness_evaluator (FitnessEvaluator): Evaluator to evaluate the fitness of individuals.
         grammar (dict): BNF Grammar to be used. If not provided config must be available and must contain grammar_file value
         config (dict): Configuration settings for the GE algorithm.
-        algorithm: Evolutionary algorithm to be used (e.g., GA, NSGA). If agorithm is not provided, GA will be used (provided that config is available).
+        algorithm (BaseAlgorithm): Evolutionary algorithm to be used (e.g., GA, NSGA). If agorithm is not provided, GA will be used (provided that config is available).
     """
 
     def __init__(self, fitness_evaluator, grammar=None, config=None, algorithm=None):

@@ -23,7 +23,7 @@ nav:
 plugins:
   - search
   - mkdocstrings:
-      handler:
+      handlers:
         python:
           options:
             docstring_style: google  # or numpy

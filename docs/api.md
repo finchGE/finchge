@@ -18,17 +18,12 @@ The finchGE API consists of:
       show_root_heading: true
       show_source: false
 
-::: finchge.ea.algorithm
+::: finchge.algorithm.algorithm
     options:
       show_root_heading: true
       show_source: false
 
-::: finchge.ea.ga
-    options:
-      show_root_heading: true
-      show_source: false
-
-::: finchge.ea.crossless_ga
+::: finchge.algorithm.ga
     options:
       show_root_heading: true
       show_source: false

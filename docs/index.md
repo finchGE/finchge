@@ -15,30 +15,34 @@ A modern, flexible, and powerful Python framework for Grammatical Evolution.
 - Modular and extensible: Plug-and-play mutation,  election, fitness, and search strategies.
 - Designed for research and industry: Convenient and flexible API for quicker implementation.
 
-## Usage
+## Quick Example
 
 Using **finchGE** is straightforward.
 
-Step 1. Define grammar in `grammar.bnf`
+Step 1. Define grammar
 
-Step 2. Define a Fitness function ; `fitness_fn`
+```python
+grammar_file = "grammar.bnf"
+grammar = BNFGrammar.from_file(grammar_file)
+``` 
+
+Step 2. Define a Fitness Evaluator ; `fitness_evaluator`
+
+```python
+
+fitness_evaluator = FitnessEvaluator(fitness_functions=fitness_fn, training_required=False)
+
+```
  
 Step 3. Create `GrammaticalEvolution` instance and run
 
 ```python
-    ge_ = GrammaticalEvolution(fitness_function=fitness_fn)
-    fittest = ge_.find_fittest()  
+       ge_ = GrammaticalEvolution(fitness_evaluator=fitness_evaluator)
+
 ```
 
-For further details, please check. Getting Started, API documentation
-
-##  Citation
-
-Please use following citation to cite **finchGE** in scientific publications:
-
-.....
-
-.....
+For further details, please check. Getting Started and API documentation
+ 
  
 
 

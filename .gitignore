@@ -9,11 +9,21 @@ __pycache__/
 .pytest_cache/
 *.log
 
+site/
+# coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.nox/
+.tox/ 
+ 
+
 # virtual environments
 venv/
 .venv/
 
 # Python egg and build files
+pip-wheel-metadata/
 *.egg-info/
 *.egg/
 dist/

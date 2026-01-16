@@ -263,7 +263,7 @@ class AccuracyFitness(GEFitnessFunction):
                 - 'y_test': True labels for the test set (array-like).
 
         Returns:
-            float: Accuracy score between 0.0 and 1.0.
+            accuracy_score (float): Accuracy score between 0.0 and 1.0.
         """
         y_test = context['y_test']
         y_pred = context['y_pred']
