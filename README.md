@@ -7,6 +7,11 @@
 [![Status](https://img.shields.io/badge/status-alpha-orange)](https://github.com/finchGE/finchge)
 [![Tests](https://github.com/finchGE/finchge/actions/workflows/tests.yml/badge.svg)](https://github.com/finchGE/finchge/actions)
 
+
+![alt text](docs/assets/images/finchgebanner.png)
+
+
+
 FinchGE is a modern, modular, and user-friendly Python library for Grammatical Evolution (GE) - a powerful evolutionary algorithm that uses formal grammars to evolve programs, expressions, and solutions.
 
 ## Features
@@ -78,7 +83,7 @@ All packages retain their original licenses.
 
 
 ## Alpha Release Notice
-Note: This is version ```0.1.0a1``` - an alpha release. Expect breaking changes and bugs. Not production ready.
+Note: This is version ```0.1.0a2``` - an alpha release. Expect breaking changes and bugs. Not production ready.
 
 What to expect:
 - Bugs and unexpected behavior

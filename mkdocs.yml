@@ -30,5 +30,3 @@ plugins:
             show_source: false
             show_signature: true
             merge_init_into_class: true
-  - version:
-    enabled: true

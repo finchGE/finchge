@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.0a1] - 2026-01-16
+## [0.1.0a2] - 2026-01-16
 
 ### Added
 - Initial release of finchGE
